@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OEM Power Tool Service | PowerTools</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navigation with Mobile Hamburger -->
+  <nav class="bg-white border-b sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="text-2xl font-bold text-[#1E4D78]">Lindo Tools</a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-[#1E4D78]">Home</a>
+        <a href="products.html" class="hover:text-[#1E4D78]">Shop</a>
+        <a href="battery-platform.html" class="hover:text-[#1E4D78]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#1E4D78]">Services</a>
+        <a href="about.html" class="hover:text-[#1E4D78]">About Us</a>
+        <a href="contact.html" class="hover:text-[#1E4D78]">Contact</a>
+      </div>
+
+      <!-- Desktop CTA -->
+      <div class="hidden md:block">
+        <a href="request-quote.html" 
+           class="px-5 py-2.5 bg-[#1E4D78] hover:bg-[#163a5c] text-white text-sm font-semibold rounded-lg transition">
+          Request Quote
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-button" class="md:hidden text-2xl focus:outline-none">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t px-6 py-4">
+      <div class="flex flex-col space-y-3 text-sm font-medium">
+        <a href="index.html" class="hover:text-[#1E4D78]">Home</a>
+        <a href="products.html" class="hover:text-[#1E4D78]">Shop</a>
+        <a href="battery-platform.html" class="hover:text-[#1E4D78]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#1E4D78]">Services</a>
+        <a href="about.html" class="hover:text-[#1E4D78]">About Us</a>
+        <a href="contact.html" class="hover:text-[#1E4D78]">Contact</a>
+        
+        <a href="request-quote.html" 
+           class="mt-2 px-5 py-2.5 bg-[#1E4D78] text-white text-center font-semibold rounded-lg hover:bg-[#163a5c]">
+          Request Quote
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+  <!-- Hero -->
+  <section class="bg-[#F8FAFC] py-14">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h1 class="text-4xl font-bold text-[#1E4D78]">OEM Power Tool Service</h1>
+      <p class="mt-3 text-gray-600 max-w-2xl mx-auto">
+        We partner with distributors and brands to develop and manufacture high-quality cordless power tools under your brand or specifications.
+      </p>
+    </div>
+  </section>
+
+  <!-- 6-Step OEM Process -->
+  <section class="max-w-6xl mx-auto px-6 py-14">
+    <h2 class="text-3xl font-semibold text-center mb-10">Our OEM Development Process</h2>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">1</div>
+          <div>
+            <h4 class="font-semibold mb-1">Requirement Discussion</h4>
+            <p class="text-sm text-gray-600">We start by understanding your target market, product requirements, MOQ, and timeline.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">2</div>
+          <div>
+            <h4 class="font-semibold mb-1">Product Development & Sampling</h4>
+            <p class="text-sm text-gray-600">We develop samples according to your specifications and provide prototypes for evaluation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">3</div>
+          <div>
+            <h4 class="font-semibold mb-1">Certification Support</h4>
+            <p class="text-sm text-gray-600">We coordinate CE, UL, RoHS, UN38.3 and other required certifications for your target markets.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">4</div>
+          <div>
+            <h4 class="font-semibold mb-1">Production & Quality Control</h4>
+            <p class="text-sm text-gray-600">Mass production with our strict 8-step independent quality control process.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">5</div>
+          <div>
+            <h4 class="font-semibold mb-1">Packaging & Branding</h4>
+            <p class="text-sm text-gray-600">Custom packaging, branding, and user manuals according to your requirements.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">6</div>
+          <div>
+            <h4 class="font-semibold mb-1">Delivery & After-Sales Support</h4>
+            <p class="text-sm text-gray-600">On-time delivery with full documentation and ongoing technical support.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Key Information -->
+  <section class="bg-gray-50 py-14">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold text-center mb-10">OEM Key Information</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-8 rounded-2xl border text-center">
+          <h4 class="font-semibold text-xl mb-2">Minimum Order Quantity</h4>
+          <p class="text-3xl font-bold text-[#1E4D78]">500 units</p>
+          <p class="text-sm text-gray-500 mt-1">Per model (varies by product complexity)</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl border text-center">
+          <h4 class="font-semibold text-xl mb-2">Lead Time</h4>
+          <p class="text-3xl font-bold text-[#1E4D78]">45–60 days</p>
+          <p class="text-sm text-gray-500 mt-1">After sample approval</p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border text-center">
+          <h4 class="font-semibold text-xl mb-2">Development Timeline</h4>
+          <p class="text-3xl font-bold text-[#1E4D78]">3–6 months</p>
+          <p class="text-sm text-gray-500 mt-1">From concept to mass production</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="max-w-4xl mx-auto px-6 py-14 text-center">
+    <h2 class="text-2xl font-semibold mb-4">Start Your OEM Project</h2>
+    <p class="text-gray-600 mb-8">We support both existing product customization and new product development.</p>
+    
+    <a href="request-quote.html" 
+       class="inline-block px-8 py-3 bg-[#1E4D78] text-white font-semibold rounded-xl hover:bg-[#163a5c]">
+      Start OEM Discussion
+    </a>
+  </section>
+
+</body>
+</html>

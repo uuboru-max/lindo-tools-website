@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quality Control Process | PowerTools</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navigation with Mobile Hamburger -->
+  <nav class="bg-white border-b sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="text-2xl font-bold text-[#1E4D78]">Lindo Tools</a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-[#1E4D78]">Home</a>
+        <a href="products.html" class="hover:text-[#1E4D78]">Shop</a>
+        <a href="battery-platform.html" class="hover:text-[#1E4D78]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#1E4D78]">Services</a>
+        <a href="about.html" class="hover:text-[#1E4D78]">About Us</a>
+        <a href="contact.html" class="hover:text-[#1E4D78]">Contact</a>
+      </div>
+
+      <!-- Desktop CTA -->
+      <div class="hidden md:block">
+        <a href="request-quote.html" 
+           class="px-5 py-2.5 bg-[#1E4D78] hover:bg-[#163a5c] text-white text-sm font-semibold rounded-lg transition">
+          Request Quote
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-button" class="md:hidden text-2xl focus:outline-none">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t px-6 py-4">
+      <div class="flex flex-col space-y-3 text-sm font-medium">
+        <a href="index.html" class="hover:text-[#1E4D78]">Home</a>
+        <a href="products.html" class="hover:text-[#1E4D78]">Shop</a>
+        <a href="battery-platform.html" class="hover:text-[#1E4D78]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#1E4D78]">Services</a>
+        <a href="about.html" class="hover:text-[#1E4D78]">About Us</a>
+        <a href="contact.html" class="hover:text-[#1E4D78]">Contact</a>
+        
+        <a href="request-quote.html" 
+           class="mt-2 px-5 py-2.5 bg-[#1E4D78] text-white text-center font-semibold rounded-lg hover:bg-[#163a5c]">
+          Request Quote
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+  <!-- Hero -->
+  <section class="bg-[#F8FAFC] py-14">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h1 class="text-4xl font-bold text-[#1E4D78]">Independent Quality Control Process</h1>
+      <p class="mt-3 text-gray-600 max-w-2xl mx-auto">
+        Every tool goes through a rigorous 8-step quality control process before it reaches you. 
+        We don’t just inspect — we guarantee consistency and reliability.
+      </p>
+    </div>
+  </section>
+
+  <!-- 8-Step Process -->
+  <section class="max-w-6xl mx-auto px-6 py-14">
+    <h2 class="text-3xl font-semibold text-center mb-10">Our 8-Step Quality Control Process</h2>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">1</div>
+          <div>
+            <h4 class="font-semibold mb-1">Incoming Material Inspection</h4>
+            <p class="text-sm text-gray-600">All raw materials and components are inspected upon arrival for quality and specification compliance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">2</div>
+          <div>
+            <h4 class="font-semibold mb-1">In-Process Quality Checks</h4>
+            <p class="text-sm text-gray-600">Multiple inspection points during assembly to catch issues early in the production process.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">3</div>
+          <div>
+            <h4 class="font-semibold mb-1">Functional Testing</h4>
+            <p class="text-sm text-gray-600">Every tool undergoes full functional testing (torque, speed, battery performance, safety features).</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">4</div>
+          <div>
+            <h4 class="font-semibold mb-1">Visual & Cosmetic Inspection</h4>
+            <p class="text-sm text-gray-600">Detailed visual check for surface defects, labeling accuracy, and packaging quality.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">5</div>
+          <div>
+            <h4 class="font-semibold mb-1">Battery & Charger Testing</h4>
+            <p class="text-sm text-gray-600">All batteries and chargers are tested for capacity, safety, and charging performance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">6</div>
+          <div>
+            <h4 class="font-semibold mb-1">Random Sampling Audit</h4>
+            <p class="text-sm text-gray-600">Independent quality team performs random batch audits to ensure consistency across production.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">7</div>
+          <div>
+            <h4 class="font-semibold mb-1">Final Pre-Shipment Inspection</h4>
+            <p class="text-sm text-gray-600">Final comprehensive inspection before goods are packed and shipped to customers.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-8">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 flex-shrink-0 bg-[#1E4D78] text-white rounded-full flex items-center justify-center font-bold">8</div>
+          <div>
+            <h4 class="font-semibold mb-1">Documentation & Traceability</h4>
+            <p class="text-sm text-gray-600">Full batch records and traceability maintained for every production lot.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Certifications & Compliance -->
+  <section class="max-w-6xl mx-auto px-6 py-14 border-t">
+    <h2 class="text-3xl font-semibold text-center mb-10">Certifications & Compliance</h2>
+    
+    <p class="text-center text-gray-600 max-w-3xl mx-auto mb-10">
+      We support the certifications required for major international markets. Our team coordinates testing with accredited laboratories and provides full documentation.
+    </p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <div class="bg-white border rounded-2xl p-6">
+        <h4 class="font-semibold mb-2">Product Safety</h4>
+        <p class="text-sm text-gray-600">CE, UL, GS, CSA</p>
+        <p class="text-xs text-gray-500 mt-2">Europe, North America, and other key markets</p>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-6">
+        <h4 class="font-semibold mb-2">Environmental</h4>
+        <p class="text-sm text-gray-600">RoHS, REACH</p>
+        <p class="text-xs text-gray-500 mt-2">European Union and global compliance</p>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-6">
+        <h4 class="font-semibold mb-2">Battery Specific</h4>
+        <p class="text-sm text-gray-600">UN38.3, MSDS, IEC62133, CB</p>
+        <p class="text-xs text-gray-500 mt-2">Critical for international air and sea freight</p>
+      </div>
+
+      <div class="bg-white border rounded-2xl p-6">
+        <h4 class="font-semibold mb-2">EMC & Wireless</h4>
+        <p class="text-sm text-gray-600">FCC, CE-EMC</p>
+        <p class="text-xs text-gray-500 mt-2">North America and European markets</p>
+      </div>
+
+    </div>
+
+    <div class="mt-8 text-center">
+      <p class="text-sm text-gray-600">
+        We coordinate testing with accredited third-party laboratories and provide full documentation packages including test reports and Declarations of Conformity.
+      </p>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="bg-gray-50 py-14">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-2xl font-semibold mb-8">How Our Quality Process Benefits You</h2>
+      
+      <div class="grid md:grid-cols-3 gap-6 text-left">
+        <div class="bg-white p-6 rounded-xl border">
+          <h4 class="font-semibold mb-2">Reduced Returns & Complaints</h4>
+          <p class="text-sm text-gray-600">Fewer defective units reach your customers, protecting your brand reputation.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border">
+          <h4 class="font-semibold mb-2">Consistent Product Quality</h4>
+          <p class="text-sm text-gray-600">Every batch meets the same high standards — no surprises for you or your customers.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border">
+          <h4 class="font-semibold mb-2">Stronger B2B Partnerships</h4>
+          <p class="text-sm text-gray-600">Distributors and OEM clients gain confidence knowing quality is independently verified.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="max-w-4xl mx-auto px-6 py-14 text-center">
+    <h2 class="text-2xl font-semibold mb-4">Quality You Can Rely On</h2>
+    <p class="text-gray-600 mb-8">Our commitment to independent quality control is one of the reasons partners choose to work with us long-term.</p>
+    
+    <a href="request-quote.html" 
+       class="inline-block px-8 py-3 bg-[#1E4D78] text-white font-semibold rounded-xl hover:bg-[#163a5c]">
+      Discuss Your Quality Requirements
+    </a>
+  </section>
+
+</body>
+</html>

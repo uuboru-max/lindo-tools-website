@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Private Label Power Tools | PowerTools</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navigation with Mobile Hamburger -->
+  <nav class="bg-white border-b sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="text-2xl font-bold text-[#1E4D78]">Lindo Tools</a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-[#1E4D78]">Home</a>
+        <a href="products.html" class="hover:text-[#1E4D78]">Shop</a>
+        <a href="battery-platform.html" class="hover:text-[#1E4D78]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#1E4D78]">Services</a>
+        <a href="about.html" class="hover:text-[#1E4D78]">About Us</a>
+        <a href="contact.html" class="hover:text-[#1E4D78]">Contact</a>
+      </div>
+
+      <!-- Desktop CTA -->
+      <div class="hidden md:block">
+        <a href="request-quote.html" 
+           class="px-5 py-2.5 bg-[#1E4D78] hover:bg-[#163a5c] text-white text-sm font-semibold rounded-lg transition">
+          Request Quote
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-button" class="md:hidden text-2xl focus:outline-none">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t px-6 py-4">
+      <div class="flex flex-col space-y-3 text-sm font-medium">
+        <a href="index.html" class="hover:text-[#1E4D78]">Home</a>
+        <a href="products.html" class="hover:text-[#1E4D78]">Shop</a>
+        <a href="battery-platform.html" class="hover:text-[#1E4D78]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#1E4D78]">Services</a>
+        <a href="about.html" class="hover:text-[#1E4D78]">About Us</a>
+        <a href="contact.html" class="hover:text-[#1E4D78]">Contact</a>
+        
+        <a href="request-quote.html" 
+           class="mt-2 px-5 py-2.5 bg-[#1E4D78] text-white text-center font-semibold rounded-lg hover:bg-[#163a5c]">
+          Request Quote
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+  <!-- Hero -->
+  <section class="bg-[#F8FAFC] py-14">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h1 class="text-4xl font-bold text-[#1E4D78]">Private Label Power Tools</h1>
+      <p class="mt-3 text-gray-600 max-w-2xl mx-auto">
+        We help brands develop and launch their own professional cordless power tool lines with full support from product development to market launch.
+      </p>
+    </div>
+  </section>
+
+  <!-- Key Benefits -->
+  <section class="max-w-6xl mx-auto px-6 py-14">
+    <h2 class="text-3xl font-semibold text-center mb-10">Why Choose Private Label with Us?</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white border rounded-2xl p-8">
+        <h4 class="font-semibold text-xl mb-3">Complete Brand Development</h4>
+        <p class="text-gray-600">We support the full journey — from product selection and customization to packaging, branding, and go-to-market strategy.</p>
+      </div>
+      <div class="bg-white border rounded-2xl p-8">
+        <h4 class="font-semibold text-xl mb-3">Strong Battery Ecosystem</h4>
+        <p class="text-gray-600">All tools are built on our unified battery platform, giving your brand a strong competitive advantage and higher customer retention.</p>
+      </div>
+      <div class="bg-white border rounded-2xl p-8">
+        <h4 class="font-semibold text-xl mb-3">Certification & Compliance Support</h4>
+        <p class="text-gray-600">We handle CE, UL, RoHS, UN38.3 and other required certifications so you can focus on building your brand.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process & Timeline -->
+  <section class="bg-gray-50 py-14">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold text-center mb-10">Private Label Development Process</h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h4 class="font-semibold mb-2">Typical Timeline</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li>• Product line planning: 4–8 weeks</li>
+            <li>• Sample development & approval: 6–10 weeks</li>
+            <li>• Certification process: 8–12 weeks</li>
+            <li>• Mass production: 45–60 days</li>
+            <li>• Total project time: 4–8 months</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-2">Minimum Order Quantity</h4>
+          <p class="text-gray-700 mb-4">Usually starts from <strong>1,000 – 3,000 units</strong> per model, depending on complexity and customization level.</p>
+          
+          <h4 class="font-semibold mb-2">What We Support</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li>• Custom tool selection and range development</li>
+            <li>• Custom branding, packaging & user manuals</li>
+            <li>• Battery platform strategy</li>
+            <li>• Full certification coordination</li>
+            <li>• Ongoing range expansion support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="max-w-4xl mx-auto px-6 py-14 text-center">
+    <h2 class="text-2xl font-semibold mb-4">Ready to Launch Your Own Brand?</h2>
+    <p class="text-gray-600 mb-8">We help ambitious brands build professional, competitive power tool lines from the ground up.</p>
+    
+    <a href="request-quote.html" 
+       class="inline-block px-8 py-3 bg-[#1E4D78] text-white font-semibold rounded-xl hover:bg-[#163a5c]">
+      Start Your Private Label Project
+    </a>
+  </section>
+
+</body>
+</html>
