@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Blog | Lindo Tools</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navigation -->
+  <nav class="bg-white border-b sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="text-2xl font-bold text-[#1E4D78]">Lindo Tools</a>
+      </div>
+
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-[#1E4D78]">Home</a>
+        <a href="products.html" class="hover:text-[#1E4D78]">Shop</a>
+        <a href="battery-platform.html" class="hover:text-[#1E4D78]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#1E4D78]">Services</a>
+        
+        <!-- Support Dropdown -->
+        <div class="relative group">
+          <a href="#" class="hover:text-[#1E4D78] flex items-center gap-1">
+            Support <span class="text-xs">▼</span>
+          </a>
+          <div class="absolute left-0 mt-2 w-48 bg-white border shadow-xl rounded-xl p-3 hidden group-hover:block z-50">
+            <div class="space-y-1 text-sm">
+              <a href="product-catalog.html" class="block px-3 py-1.5 hover:bg-gray-50 rounded-lg">Product Catalog</a>
+              <a href="technical-blog.html" class="block px-3 py-1.5 hover:bg-gray-50 rounded-lg">Technical Blog</a>
+              <a href="certificates.html" class="block px-3 py-1.5 hover:bg-gray-50 rounded-lg">Certificates</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="about.html" class="hover:text-[#1E4D78]">About Us</a>
+        <a href="contact.html" class="hover:text-[#1E4D78]">Contact</a>
+      </div>
+
+      <div class="hidden md:flex items-center gap-3">
+        <a href="request-quote.html" 
+           class="px-5 py-2.5 bg-[#1E4D78] hover:bg-[#163a5c] text-white text-sm font-semibold rounded-lg transition">
+          Request Quote
+        </a>
+        <a href="https://wa.me/8618628167508" target="_blank"
+           class="px-5 py-2.5 bg-green-600 hover:bg-green-700 text-white text-sm font-semibold rounded-lg transition flex items-center gap-2">
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-[#F8FAFC] py-16">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h1 class="text-4xl font-bold text-[#1E4D78]">Technical Blog</h1>
+      <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+        Expert insights, product guides, maintenance tips, and industry knowledge from the Lindo Tools team.
+      </p>
+    </div>
+  </section>
+
+  <!-- Blog Posts -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Blog Post 1 -->
+      <div class="border rounded-2xl overflow-hidden hover:shadow-lg transition">
+        <div class="h-48 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Image Placeholder</span>
+        </div>
+        <div class="p-6">
+          <div class="text-xs text-gray-500 mb-2">June 10, 2026 • 8 min read</div>
+          <h3 class="font-semibold text-lg mb-3">How to Choose the Right Cordless Impact Wrench for Professional Workshops</h3>
+          <p class="text-sm text-gray-600 mb-4">Key factors to consider when selecting torque, drive size, and battery platform for high-volume workshop use.</p>
+          <a href="#" class="text-sm text-[#1E4D78] hover:underline">Read Article →</a>
+        </div>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="border rounded-2xl overflow-hidden hover:shadow-lg transition">
+        <div class="h-48 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Image Placeholder</span>
+        </div>
+        <div class="p-6">
+          <div class="text-xs text-gray-500 mb-2">June 5, 2026 • 6 min read</div>
+          <h3 class="font-semibold text-lg mb-3">Why a Unified Battery Platform Increases Profitability for Distributors</h3>
+          <p class="text-sm text-gray-600 mb-4">How offering one battery system across multiple tools can reduce inventory costs and improve customer loyalty.</p>
+          <a href="#" class="text-sm text-[#1E4D78] hover:underline">Read Article →</a>
+        </div>
+      </div>
+
+      <!-- Blog Post 3 -->
+      <div class="border rounded-2xl overflow-hidden hover:shadow-lg transition">
+        <div class="h-48 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Image Placeholder</span>
+        </div>
+        <div class="p-6">
+          <div class="text-xs text-gray-500 mb-2">May 28, 2026 • 10 min read</div>
+          <h3 class="font-semibold text-lg mb-3">Extending Tool Lifespan: Maintenance Best Practices for Professional Users</h3>
+          <p class="text-sm text-gray-600 mb-4">Practical maintenance routines that help workshops and contractors reduce downtime and protect their tool investment.</p>
+          <a href="#" class="text-sm text-[#1E4D78] hover:underline">Read Article →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-10">
+    <div class="max-w-7xl mx-auto px-6 text-sm">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <h4 class="text-white font-semibold mb-2">Lindo Tools</h4>
+          <p>Sichuan Lingdu Trading Co., Ltd.</p>
+        </div>
+        <div>
+          <p>Email: <a href="mailto:john@lindolithiumtools.com" class="hover:text-white">john@lindolithiumtools.com</a></p>
+          <p class="mt-1">WhatsApp: <a href="https://wa.me/8618628167508" class="hover:text-white">+86 186 2816 7508</a></p>
+        </div>
+        <div class="text-right md:text-left">
+          © 2026 Lindo Tools. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
