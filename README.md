@@ -21,6 +21,9 @@ A modern, premium B2B website for **Lindo Tools**, a professional cordless power
 - **Support Section** – Product Catalog, Technical Blog, Certificates, FAQ, Contact
 - **Request Quote + WhatsApp** – Clear conversion CTAs on all main pages
 - **High Consistency** – Unified color scheme, hover states, and styling throughout all pages
+- **Trade & Legal Content** – Includes Incoterms® 2020, Payment Terms, Export Compliance, and detailed Warranty policy
+- **Technical Blog** – Added useful articles on Battery Platform and Quality Control
+- **Improved Certificates Page** – Professional structure with key certifications listed
 - **Deployment Ready** – Clean static HTML + Tailwind CSS, easy to host on Cloudflare Pages or similar platforms
 
 ## 🛠 Tech Stack
@@ -85,4 +88,4 @@ For business inquiries:
 
 ---
 
-**Final Version v4** – Premium Dark + Gold Theme + Full Consistency & Category Pages (June 2026)
+**Final Version v5** – Premium Dark + Gold Theme + Trade Terms, Legal Improvements & Content Updates (June 2026)
