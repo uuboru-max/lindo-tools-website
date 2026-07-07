@@ -1,91 +1,58 @@
 # Lindo Tools - Professional Power Tools Website
 
-A modern, premium B2B website for **Lindo Tools**, a professional cordless power tools brand. The website features a clean dark theme with gold accents, strong visual hierarchy, and a professional tone targeted at contractors, distributors, and OEM partners.
+Professional B2B website for Lindo Tools, a manufacturer of high-performance 21V brushless cordless power tools with a unified battery platform.
 
-## 🌐 Live Preview
+## Website Structure
 
-- **Final Version:** Premium Dark + Gold Theme
-- **Style:** Modern, professional, high-end B2B
+- `index.html` — Homepage (strong B2B focus)
+- `products.html` — Main products landing
+- `products-professional.html` — Professional & Heavy-Duty Tools
+- `products-diy.html` — DIY & Light Commercial Tools
+- `products-garden.html` — Garden & Landscaping Tools
+- `products-auto.html` — Auto Repair Tools
+- `battery-platform.html` — Unified 21V Battery Platform (key differentiator)
+- `product-detail-*.html` — Individual product pages
+- `about.html`, `services.html`, `quality-control.html`, `certificates.html`
+- `contact.html`, `request-quote.html`
+- `faq.html`, `technical-blog.html`, `case-studies.html`
 
-## ✨ Key Features
+## Key Features
 
-- **Premium Dark + Gold Theme** – Strong, confident, and professional visual identity across the entire site
-- **Responsive Design** – Fully optimized for desktop and mobile with consistent dark-themed mobile menus
-- **Mega Menu Navigation** – Fully functional Product and Support mega menus (stable and clickable)
-- **Product Categories** (4 categories):
-  - DIY & Home Repair (`products-diy.html`)
-  - Professional & Heavy-Duty (`products-professional.html`)
-  - Garden & Landscaping (`products-garden.html`)
-  - Auto Repair (`products-auto.html`)
-- **Product Detail Pages** – Improved hero sections and professional layout
-- **Support Section** – Product Catalog, Technical Blog, Certificates, FAQ, Contact
-- **Request Quote + WhatsApp** – Clear conversion CTAs on all main pages
-- **High Consistency** – Unified color scheme, hover states, and styling throughout all pages
-- **Trade & Legal Content** – Includes Incoterms® 2020, Payment Terms, Export Compliance, and detailed Warranty policy
-- **Technical Blog** – Added useful articles on Battery Platform and Quality Control
-- **Improved Certificates Page** – Professional structure with key certifications listed
-- **Deployment Ready** – Clean static HTML + Tailwind CSS, easy to host on Cloudflare Pages or similar platforms
+- Modern navy + gold B2B design
+- Mega menu navigation
+- Real product photography
+- Strong emphasis on Battery Platform & OEM/Private Label
+- Multiple conversion paths (Request Quote + WhatsApp)
 
-## 🛠 Tech Stack
+## SEO
 
-- **HTML5 + Tailwind CSS** (via CDN)
-- Fully static website (no backend required)
-- Easy to deploy on any static hosting platform
+- Optimized titles and meta descriptions on all main pages
+- Open Graph tags for social sharing
+- Basic structured data on homepage
 
-## 📁 Project Structure
+## Deployment
 
-```
-website/
-├── index.html
-├── products.html
-├── about.html
-├── contact.html
-├── services.html
-├── battery-platform.html
-├── request-quote.html
-├── faq.html
-├── case-studies.html
-├── quality-control.html
-├── product-detail-*.html
-├── products-auto.html
-├── product-catalog.html
-├── technical-blog.html
-├── certificates.html
-├── oem.html
-├── private-label.html
-└── README.md
-```
+This is a static HTML + Tailwind CSS website.
 
-## 🚀 Deployment (Cloudflare Pages)
+### Recommended Hosting:
+- **Cloudflare Pages** (recommended)
+- Netlify
+- Vercel
+- GitHub Pages
 
-### Recommended Method:
+### How to Deploy on Cloudflare Pages:
 
-1. Push this folder to a **GitHub repository**
-2. Go to [Cloudflare Pages](https://pages.cloudflare.com)
+1. Push this folder to a GitHub repository
+2. Go to Cloudflare Dashboard → Pages → Create a project
 3. Connect your GitHub repo
-4. Set **Build command** to empty (leave blank)
-5. Set **Build output directory** to `.` (or leave as default if using root)
-6. Click **Save and Deploy**
+4. Build settings:
+   - Build command: (leave empty or `echo "No build needed"`)
+   - Build output directory: `/` (root)
+5. Deploy
 
-### Alternative (Manual Upload):
+## Contact
 
-1. Download the latest zip file
-2. Extract it
-3. Upload the `website/` folder contents to Cloudflare Pages
+For business inquiries: john@lindolithiumtools.com  
+WhatsApp: +86 186 2816 7508
 
-## 📌 Notes
-
-- All pages use a consistent **premium dark theme** (#0F172A) with **gold accents** (#D4A373)
-- Mobile menus are fully styled to match the desktop experience
-- The website is 100% static and lightweight
-- All navigation links and Mega Menus have been tested for stability and correctness
-
-## 📬 Contact
-
-For business inquiries:
-- Email: john@lindolithiumtools.com
-- WhatsApp: +86 18628167508
-
----
-
-**Final Version v5** – Premium Dark + Gold Theme + Trade Terms, Legal Improvements & Content Updates (June 2026)
+© 2026 Lindo Tools
