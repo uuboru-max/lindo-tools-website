@@ -1,58 +1,43 @@
-# Lindo Tools - Professional Power Tools Website
+# Lindo Tools - Professional B2B Website (Final Version)
 
-Professional B2B website for Lindo Tools, a manufacturer of high-performance 21V brushless cordless power tools with a unified battery platform.
+Professional website for Lindo Tools – manufacturer of high-performance 21V brushless cordless power tools with a unified battery platform.
 
-## Website Structure
+## Website Status: Ready for Deployment
 
-- `index.html` — Homepage (strong B2B focus)
-- `products.html` — Main products landing
-- `products-professional.html` — Professional & Heavy-Duty Tools
-- `products-diy.html` — DIY & Light Commercial Tools
-- `products-garden.html` — Garden & Landscaping Tools
-- `products-auto.html` — Auto Repair Tools
-- `battery-platform.html` — Unified 21V Battery Platform (key differentiator)
-- `product-detail-*.html` — Individual product pages
-- `about.html`, `services.html`, `quality-control.html`, `certificates.html`
-- `contact.html`, `request-quote.html`
-- `faq.html`, `technical-blog.html`, `case-studies.html`
+- Strong B2B positioning
+- Cloudinary-powered images (optimized & easy to update)
+- Multiple product detail pages
+- SEO foundations in place
+- Professional design (Navy + Gold)
 
-## Key Features
+## Key Pages
 
-- Modern navy + gold B2B design
-- Mega menu navigation
-- Real product photography
-- Strong emphasis on Battery Platform & OEM/Private Label
-- Multiple conversion paths (Request Quote + WhatsApp)
+- Homepage (index.html)
+- Products: Professional, DIY, Garden
+- Battery Platform (key differentiator)
+- About, Services, Contact, Request Quote
 
-## SEO
+## Deployment Instructions (Cloudflare Pages - Recommended)
 
-- Optimized titles and meta descriptions on all main pages
-- Open Graph tags for social sharing
-- Basic structured data on homepage
-
-## Deployment
-
-This is a static HTML + Tailwind CSS website.
-
-### Recommended Hosting:
-- **Cloudflare Pages** (recommended)
-- Netlify
-- Vercel
-- GitHub Pages
-
-### How to Deploy on Cloudflare Pages:
-
-1. Push this folder to a GitHub repository
+1. Push this folder to GitHub
 2. Go to Cloudflare Dashboard → Pages → Create a project
-3. Connect your GitHub repo
+3. Connect your GitHub repository
 4. Build settings:
-   - Build command: (leave empty or `echo "No build needed"`)
-   - Build output directory: `/` (root)
+   - Build command: (leave empty)
+   - Build output directory: `/`
 5. Deploy
+
+## Files Included
+
+- All HTML pages
+- sitemap.xml
+- robots.txt
+- images/ (via Cloudinary)
+- This README
 
 ## Contact
 
-For business inquiries: john@lindolithiumtools.com  
+Email: john@lindolithiumtools.com  
 WhatsApp: +86 186 2816 7508
 
 © 2026 Lindo Tools
