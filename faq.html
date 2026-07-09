@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ | PowerTools</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navigation with Mobile Hamburger -->
+  <nav class="bg-[#0F172A] sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-9 h-9 flex items-center justify-center rounded-xl bg-gradient-to-br from-[#D4A373] to-[#B8860B] group-hover:from-[#B8860B] group-hover:to-[#8B6914] transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#0F172A]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <span class="text-3xl font-bold tracking-tight text-white group-hover:text-[#D4A373] transition">Lindo</span>
+        </a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-[#D4A373]">Home</a>
+        <a href="products.html" class="hover:text-[#D4A373]">Product</a>
+        <a href="battery-platform.html" class="hover:text-[#D4A373]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#D4A373]">Services</a>
+        <a href="about.html" class="hover:text-[#D4A373]">About Us</a>
+        <a href="contact.html" class="hover:text-[#D4A373]">Contact</a>
+      </div>
+
+      <!-- Desktop CTA -->
+      <div class="hidden md:block flex items-center gap-3">
+        <a href="request-quote.html" 
+           class="px-6 py-2.5 bg-[#D4A373] hover:bg-[#B8860B] text-white text-sm font-semibold rounded-lg transition">
+          Request Quote
+        </a>
+        <a href="https://wa.me/8618628167508" target="_blank"
+           class="px-6 py-2.5 border border-green-600 text-green-700 hover:bg-green-50 text-sm font-semibold rounded-lg transition flex items-center gap-2">
+          Chat on WhatsApp
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-button" class="md:hidden text-2xl focus:outline-none">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#0F172A] border-t border-white/10 px-6 py-4">
+      <div class="flex flex-col space-y-3 text-sm font-medium text-white">
+        <a href="index.html" class="hover:text-[#D4A373]">Home</a>
+        <a href="products.html" class="hover:text-[#D4A373]">Product</a>
+        <a href="battery-platform.html" class="hover:text-[#D4A373]">Battery Platform</a>
+        <a href="services.html" class="hover:text-[#D4A373]">Services</a>
+        <a href="about.html" class="hover:text-[#D4A373]">About Us</a>
+        <a href="contact.html" class="hover:text-[#D4A373]">Contact</a>
+        
+        <!-- Support Mega Menu -->
+        <div class="relative group">
+          <a href="#" class="hover:text-[#D4A373] flex items-center gap-1">
+            Support
+            <span class="text-xs">▼</span>
+          </a>
+          
+          <!-- Mega Menu -->
+          <div class="absolute left-0 mt-1 pt-3 w-[520px] bg-white border border-gray-200 shadow-2xl rounded-2xl p-6 hidden group-hover:block z-50">
+            <div class="grid grid-cols-2 gap-8">
+              
+              <!-- Column 1: Resources -->
+              <div>
+                <h4 class="font-semibold text-sm mb-3 text-gray-500">RESOURCES</h4>
+                <div class="space-y-2 text-sm">
+                  <a href="product-catalog.html" class="block hover:text-[#D4A373]">Product Catalog</a>
+                  <a href="technical-blog.html" class="block hover:text-[#D4A373]">Technical Blog</a>
+                  <a href="certificates.html" class="block hover:text-[#D4A373]">Certificates</a>
+                </div>
+              </div>
+
+              <!-- Column 2: Get Help -->
+              <div>
+                <h4 class="font-semibold text-sm mb-3 text-gray-500">GET HELP</h4>
+                <div class="space-y-2 text-sm">
+                  <a href="faq.html" class="block hover:text-[#D4A373]">FAQ</a>
+                  <a href="contact.html" class="block hover:text-[#D4A373]">Contact Us</a>
+                  <a href="request-quote.html" class="block hover:text-[#D4A373]">Request a Quote</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+        <a href="request-quote.html" 
+           class="mt-2 px-5 py-2.5 bg-[#D4A373] text-white text-center font-semibold rounded-lg hover:bg-[#B8860B]">
+          Request Quote
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+  <!-- Hero -->
+  <section class="bg-[#F8FAFC] py-12">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h1 class="text-4xl font-bold text-[#D4A373]">Frequently Asked Questions</h1>
+      <p class="mt-3 text-gray-600">Answers to common questions from distributors, importers, and business partners.</p>
+    </div>
+  </section>
+
+  <!-- FAQ Content -->
+  <section class="max-w-4xl mx-auto px-6 py-10 space-y-10">
+
+    <!-- General -->
+    <div>
+      <h3 class="text-xl font-semibold mb-4">General</h3>
+      <div class="space-y-6">
+        <div>
+          <h4 class="font-semibold">What is your minimum order quantity (MOQ)?</h4>
+          <p class="text-gray-600 mt-1">For standard wholesale orders, MOQ starts from 100–300 units depending on the product. For OEM and Private Label projects, MOQ typically ranges from 500–3000 units.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">Do you offer samples before bulk orders?</h4>
+          <p class="text-gray-600 mt-1">Yes. We provide samples for evaluation. Sample cost and shipping fees apply and can be discussed case by case.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Battery Platform -->
+    <div>
+      <h3 class="text-xl font-semibold mb-4">Battery Platform</h3>
+      <div class="space-y-6">
+        <div>
+          <h4 class="font-semibold">Do all your tools use the same battery?</h4>
+          <p class="text-gray-600 mt-1">Yes. Most of our 18V/20V tools share the same battery platform, allowing customers to use one battery across multiple tools.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">Can I order tools without batteries (bare tools)?</h4>
+          <p class="text-gray-600 mt-1">Yes. We offer both Kit versions (with battery + charger) and Bare Tool versions.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- OEM & Private Label -->
+    <div>
+      <h3 class="text-xl font-semibold mb-4">OEM & Private Label</h3>
+      <div class="space-y-6">
+        <div>
+          <h4 class="font-semibold">What is the typical lead time for OEM projects?</h4>
+          <p class="text-gray-600 mt-1">From initial discussion to mass production, OEM projects usually take 4–8 months, depending on customization level and certification requirements.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">Do you help with product certifications?</h4>
+          <p class="text-gray-600 mt-1">Yes. We coordinate testing and certification (CE, UL, RoHS, UN38.3, etc.) with accredited laboratories.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shipping & Warranty -->
+    <div>
+      <h3 class="text-xl font-semibold mb-4">Shipping, Returns & Warranty</h3>
+      <div class="space-y-6">
+        <div>
+          <h4 class="font-semibold">Do you offer tracked shipping?</h4>
+          <p class="text-gray-600 mt-1">Yes. All orders are shipped with reliable courier services. Tracking information is provided once the order is dispatched.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">What is your warranty policy?</h4>
+          <p class="text-gray-600 mt-1">All products come with a 3-year limited warranty covering manufacturing defects under normal use.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">Can I return defective products?</h4>
+          <p class="text-gray-600 mt-1">Yes. We accept returns for defective items within 30 days of delivery. Please contact our support team for return instructions.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-gray-50 py-10">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <p class="text-gray-600 mb-4">Still have questions?</p>
+      <a href="contact.html" 
+         class="inline-block px-8 py-3 bg-[#D4A373] text-white font-semibold rounded-xl hover:bg-[#B8860B]">
+        Contact Our Team
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
